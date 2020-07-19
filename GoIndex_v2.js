@@ -22,7 +22,7 @@ const authConfig = {
    * 【注意】对于id设置为为子文件夹id的盘将不支持搜索功能（不影响其他盘）。
    */
   "roots": [
-    {
+    /* {
       id: "0AAbYJJQ8_8Q_Uk9PVA",
       name: "共享盘",
       user: '',
@@ -35,10 +35,10 @@ const authConfig = {
       user: 'TechainLau',
       pass: "1234567890",
       protect_file_link: true
-    },
+    }, */
     {
-      id: "folder_id",
-      name: "文件夹",
+      id: "1bBbV8ThlOMz7MfHB7E3vszl-Kh8Q1FLM",
+      name: "我的Pixiv收藏",
       // 只设置密码、只设置用户名、同时设置用户名密码，都是可以的
       user: 'TechianLau',
       pass: "1234567890",
@@ -134,7 +134,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@1.0/app-v3.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/app-v3.js"></script>
 </head>
 <body>
 </body>
