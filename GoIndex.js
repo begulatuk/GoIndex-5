@@ -1,9 +1,9 @@
 var authConfig = {
-    "siteName": "GoIndex", // 网站名称
-    "siteIcon": "", // 网站图标
+    "siteName": "8167res", // 网站名称
+    "siteIcon": "https://i.loli.net/2020/07/19/7mCAPGRZdw4Y9gW.jpg", // 网站图标
     "root_pass": "",  // 根目录密码，优先于.password
     "version": "1.0.6", // 程序版本
-    "theme": "classic", // material  classic
+    "theme": "material", // material  classic
     "client_id": "202264815644.apps.googleusercontent.com",
     "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
     "refresh_token": "1//0ccPy38YtsaYaCgYIARAAGAwSNwF-L9IryKgjNj5fqYa_UJxAXDqBiaZxtGMxy_gR9tPftVctVgHN8O2MljeKf3U8h--09Fk8G24", // 授权 token

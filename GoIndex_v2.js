@@ -1,5 +1,5 @@
 const authConfig = {
-  "siteName": "resources8167", // 网站名称
+  "siteName": "8167res", // 网站名称
   "siteIcon": "https://i.loli.net/2020/07/19/7mCAPGRZdw4Y9gW.jpg", // 网站图标
   "version": "_4.28", // 程序版本。用户不要手动修改
   /*"client_id": "202264815644.apps.googleusercontent.com",
@@ -22,28 +22,28 @@ const authConfig = {
    * 【注意】对于id设置为为子文件夹id的盘将不支持搜索功能（不影响其他盘）。
    */
   "roots": [
-    /* {
+    {
       id: "0AAbYJJQ8_8Q_Uk9PVA",
       name: "共享盘",
       user: '',
       pass: "",
-      protect_file_link: true
-    },
-    {
+      protect_file_link: false
+    }
+    /* {
       id: "root",
       name: "个人盘",
-      user: 'TechainLau',
-      pass: "1234567890",
-      protect_file_link: true
-    }, */
+      user: '',
+      pass: "",
+      protect_file_link: false
+    },
     {
       id: "1bBbV8ThlOMz7MfHB7E3vszl-Kh8Q1FLM",
       name: "我的Pixiv收藏",
       // 只设置密码、只设置用户名、同时设置用户名密码，都是可以的
-      user: 'TechianLau',
+      user: '',
       pass: "1234567890",
       protect_file_link: false
-    }
+    } */
   ],
   /**
    * 文件列表页面每页显示的数量。【推荐设置值为 100 到 1000 之间】；
