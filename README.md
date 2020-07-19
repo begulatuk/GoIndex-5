@@ -1,4 +1,4 @@
-# goIndex-theme-nexmoe
+# goIndex-theme-nexmoe （自用修改版）
 
 基于 [盘ta](https://github.com/Hidove/goindex) 的js,参考OneIndex的主题nexmoe,魔改美化.
 
