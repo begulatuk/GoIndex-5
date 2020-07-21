@@ -1,6 +1,6 @@
 var authConfig = {
     "siteName": "8167res", // 网站名称
-    "siteIcon": "https://i.loli.net/2020/07/19/7mCAPGRZdw4Y9gW.jpg", // 网站图标
+    "siteIcon": "https://cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/images/favicon.ico", // 网站图标
     "root_pass": "",  // 根目录密码，优先于.password
     "version": "1.0.6", // 程序版本
     "theme": "material", // material  classic
