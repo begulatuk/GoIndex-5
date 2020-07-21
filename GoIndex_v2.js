@@ -1,6 +1,6 @@
 const authConfig = {
-  "siteName": "8167res", // 网站名称
-  "siteIcon": "https://i.loli.net/2020/07/19/7mCAPGRZdw4Y9gW.jpg", // 网站图标
+  "siteName": "share8167", // 网站名称
+  "siteIcon": "https://cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/images/favicon.ico", // 网站图标
   "version": "_4.28", // 程序版本。用户不要手动修改
   /*"client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",*/
@@ -29,11 +29,11 @@ const authConfig = {
       pass: "",
       protect_file_link: false
     }
-    /* {
+    /*{
       id: "root",
       name: "个人盘",
       user: '',
-      pass: "",
+      pass: "1234567890",
       protect_file_link: false
     },
     {
@@ -43,7 +43,7 @@ const authConfig = {
       user: '',
       pass: "1234567890",
       protect_file_link: false
-    } */
+    }*/
   ],
   /**
    * 文件列表页面每页显示的数量。【推荐设置值为 100 到 1000 之间】；
