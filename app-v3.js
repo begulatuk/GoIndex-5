@@ -6,13 +6,13 @@
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="./css/mdui_v2.min.css">');
-document.write('<link rel="stylesheet" href="./css/nexmoe_v2.min.css">');
-document.write('<script src="./js/mdui.min.js"></script>');
-document.write('<script src="./js/flv.min.js"></script>');
-document.write('<script src="./js/DPlayer.min.js"></script>');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/css/mdui_v2.min.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/css/nexmoe_v2.min.css">');
+document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/js/mdui.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/js/flv.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/js/DPlayer.min.js"></script>');
 // markdown支持
-document.write('<script src="./js/markdown-it.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/js/markdown-it.min.js"></script>');
 document.write('<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}.mdui-toolbar>i{opacity:.5}.mdui-toolbar>i{padding:0}.mdui-toolbar>a:hover,a.active,a.mdui-typo-headline{opacity:1}.mdui-container{max-width:980px}.mdui-list-item{transition:none}.mdui-list>.th{background-color:initial}.mdui-list-item>a{width:100%;line-height:3pc}.mdui-list-item{margin:2px 0;padding:0}.mdui-toolbar>a:last-child{opacity:1}@media screen and (max-width:980px){.mdui-list-item .mdui-text-right{display:none}.mdui-container{width:100%!important;margin:0}}</style>');
 // add custome theme and darkmode
 if (UI.dark_mode) {
@@ -744,8 +744,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="./js/ace.js"></script>
-<script src="./js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/js/ace.js"></script>
+<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@master/js/ext-language_tools.js"></script>
 	`;
   $('#content').html(content);
 
