@@ -485,9 +485,7 @@ function markdown(el, data) {
     //});
   } else {
     var html = md.render(data);
-    $(el)
-      .show()
-      .html(html);
+    $(el).show().html(html);
   }
 }
 

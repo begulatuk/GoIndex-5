@@ -1046,6 +1046,12 @@ function markdown(el, data) {
     var html = md.render(data);
     $(el).show().html(html);
   }
+  // html标签支持
+  var md = require('markdown-it')({
+    html: true,
+    linkify: true,
+    typographer: true
+  });
 }
 
 // 监听回退事件
