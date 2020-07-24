@@ -20,7 +20,11 @@
 /* 头像 */
 .avatar{
     position: absolute;
-    background: url(../images/avatar.jpg) 100%;
+    background: url(../images/avatar.jpg) no-repeat;
+    background-size: 100%;
+    background-origin: content-box;
+    -webkit-background-origin: content-box;
+    -moz-background-origin: content-box;
     top: 4px;
     left: 5%;
     width: 40px;

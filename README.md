@@ -15,7 +15,7 @@ app-v3.js 的模板为GoIndex_v2.js
 
 3.将代码部署到 [Cloudflare Workers](https://www.cloudflare.com/)
 
-4.使用 https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.2/app-v2.js 替换获取代码中的js
+4.使用 https://cdn.jsdelivr.net/gh/techainlau/customGoindex@1.1.2/app-v2.js 替换获取代码中的js
 > var html = `
 > 
 > ......
@@ -27,4 +27,4 @@ app-v3.js 的模板为GoIndex_v2.js
 
 5.其中app.js有部分链接为外链，app-v2.js的所有链接均连接仓库中的文件
 
-6.app-v3.j地址：https://cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.6/app-v3.js
+6.app-v3.j地址：https://cdn.jsdelivr.net/gh/techainlau/customGoindex@1.1.6/app-v3.js

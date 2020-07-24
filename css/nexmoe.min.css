@@ -22,7 +22,11 @@
 /* 头像 */
 .avatar{
     position: absolute;
-    background: url(../images/avatar.jpg) 100%;
+    background: url(../images/avatar.jpg) no-repeat;
+    background-size: 100%;
+    background-origin: content-box;
+    -webkit-background-origin: content-box;
+    -moz-background-origin: content-box;
     top: 4px;
     left: 5%;
     width: 40px;
@@ -103,7 +107,7 @@
     float: left;
     width: 30px;
     height: 30px;
-    background: url(//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe/images/icon_menu.png);
+    background: url(../images/icon_menu.png);
     background-size:100% 100%;
     transition: .6s;
     cursor: pointer;
@@ -111,7 +115,7 @@
 
 /* 图标动画icon */
 .nav_icon:hover{
-    background: url(//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe/images/icon_close.png);
+    background: url(../images/icon_close.png);
     background-size:100% 100%;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
