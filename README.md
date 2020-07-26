@@ -1,1 +1,1 @@
-# goIndex-theme-nexmoe （自用修改版）
+# remove all file
