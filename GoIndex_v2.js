@@ -1,6 +1,6 @@
 const authConfig = {
   "siteName": "share8167", // 网站名称
-  "siteIcon": "https://cdn.jsdelivr.net/gh/TechainLau/customGoindex/images/favicon.ico", // 网站图标
+  "siteIcon": "https://cdn.jsdelivr.net/gh/TechainLau/GoIndex/images/favicon.ico", // 网站图标
   "version": "_4.28", // 程序版本。用户不要手动修改
   /*"client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",*/
@@ -134,7 +134,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/app-v3.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/TechainLau/GoIndex/app-v3.js"></script>
 </head>
 <body>
 </body>

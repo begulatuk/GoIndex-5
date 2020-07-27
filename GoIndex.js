@@ -1,6 +1,6 @@
 var authConfig = {
     "siteName": "share8167", // 网站名称
-    "siteIcon": "https://cdn.jsdelivr.net/gh/TechainLau/customGoindex/images/favicon.ico", // 网站图标
+    "siteIcon": "https://cdn.jsdelivr.net/gh/TechainLau/GoIndex/images/favicon.ico", // 网站图标
     "root_pass": "",  // 根目录密码，优先于.password
     "version": "1.0.6", // 程序版本
     "theme": "classic", // material  classic
@@ -21,7 +21,7 @@ var html = `
   <title>${authConfig.siteName}</title>
   <link rel="shortcut icon" href="${authConfig.siteIcon}" type="image/x-icon" />
 <!--  <script src="//lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script> -->
-  <script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/app-v2.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/TechainLau/GoIndex/app-v2.js"></script>
 </head>
 <body>
 </body>
