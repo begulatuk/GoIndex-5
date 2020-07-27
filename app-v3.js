@@ -6,13 +6,13 @@
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@latest/css/mdui_v2.min.css">');
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@latest/css/nexmoe_v2.min.css">');
-document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@latest/js/mdui.js"></script>');
-document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@latest/js/flv.min.js"></script>');
-document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@latest/js/DPlayer.min.js"></script>');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/css/mdui_v2.min.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/css/nexmoe_v2.min.css">');
+document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/mdui.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/flv.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/DPlayer.min.js"></script>');
 // markdown支持
-document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@latest/js/markdown-it.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/markdown-it.min.js"></script>');
 document.write('<style>.mdui-appbar .mdui-toolbar{height:56px;font-size:1pc}.mdui-toolbar>i{opacity:.5}.mdui-toolbar>i{padding:0}.mdui-toolbar>a:hover,a.active,a.mdui-typo-headline{opacity:1}.mdui-container{max-width:980px}.mdui-list-item{transition:none}.mdui-list>.th{background-color:initial}.mdui-list-item>a{width:100%;line-height:3pc}.mdui-list-item{margin:2px 0;padding:0}.mdui-toolbar>a:last-child{opacity:1}@media screen and (max-width:980px){.mdui-list-item .mdui-text-right{display:none}.mdui-container{width:100%!important;margin:0}}</style>');
 // add custome theme and darkmode
 if (UI.dark_mode) {
@@ -29,7 +29,7 @@ function init() {
 			<a href="/"><div class="avatar"></div></a>
 			<div class="nav_menu">
 				<ul class="menu_ul">
-					<li class="menu_li"><a href="https://techainlau.github.io/" target="_blank">博客</a></li>
+					<li class="menu_li"><a href="https://TechainLau.github.io/" target="_blank">博客</a></li>
 					<li class="menu_li"><a href="https://drive.google.com/" target="_blank">登陆</a></li>
 				</ul>
 				<div class="nav_icon" ></div>
@@ -744,8 +744,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@latest/js/ace.min.js"></script>
-<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex@latest/js/ext-language_tools.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/ace.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/ext-language_tools.min.js"></script>
 	`;
   $('#content').html(content);
 
@@ -1046,12 +1046,6 @@ function markdown(el, data) {
     var html = md.render(data);
     $(el).show().html(html);
   }
-  // html标签支持
-  var md = require('markdown-it')({
-    html: true,
-    linkify: true,
-    typographer: true
-  });
 }
 
 // 监听回退事件

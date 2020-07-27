@@ -1,13 +1,13 @@
 var authConfig = {
-    "siteName": "GoIndex", // 网站名称
-    "siteIcon": "", // 网站图标
+    "siteName": "share8167", // 网站名称
+    "siteIcon": "https://cdn.jsdelivr.net/gh/TechainLau/customGoindex/images/favicon.ico", // 网站图标
     "root_pass": "",  // 根目录密码，优先于.password
     "version": "1.0.6", // 程序版本
     "theme": "classic", // material  classic
-    "client_id": "",
-    "client_secret": "",
-    "refresh_token": "", // 授权 token
-    "root": "" // 根目录ID
+    "client_id": "202264815644.apps.googleusercontent.com",
+    "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
+    "refresh_token": "1//0ccPy38YtsaYaCgYIARAAGAwSNwF-L9IryKgjNj5fqYa_UJxAXDqBiaZxtGMxy_gR9tPftVctVgHN8O2MljeKf3U8h--09Fk8G24", // 授权 token
+    "root": "0AAbYJJQ8_8Q_Uk9PVA" // 根目录ID
 };
 
 var gd;
