@@ -478,11 +478,6 @@ String.prototype.trim = function(char) {
 
 // README.md HEAD.md 支持
 function markdown(el, data) {
-  var md = require('markdown-it')({
-    html: true,
-    linkify: true,
-    typographer: true
-  });
   if (window.md == undefined) {
     //$.getScript('https://cdn.jsdelivr.net/npm/markdown-it@9.1.0/dist/markdown-it.min.js',function(){
     window.md = window.markdownit();
