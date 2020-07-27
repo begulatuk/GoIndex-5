@@ -7,7 +7,7 @@
  */
 // 在head 中 加载 必要静态
 document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/css/mdui_v2.min.css">');
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/css/nexmoe_v2.min.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/css/nexmoe_v2.css">');
 document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/mdui.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/flv.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/gh/TechainLau/customGoindex/js/DPlayer.min.js"></script>');
